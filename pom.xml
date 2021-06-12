@@ -8,11 +8,21 @@
     <name>gulimall</name>
     <description>聚合服务</description>
 <packaging>pom</packaging>
-<modules>
+    <properties>
+        <!--指定Java版本-->
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+
+    <modules>
     <module>gulimall-coupon</module>
     <module>gulimall-member</module>
     <module>gulimall-order</module>
     <module>gulimall-product</module>
     <module>gulimall-ware</module>
+    <module>renren-fast</module>
+    <module>renren-generator</module>
+    <module>gulimall-common</module>
 </modules>
 </project>
